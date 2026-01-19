@@ -1,4 +1,4 @@
-import 'package:simple_color_print/src/common/classes/large_print_with_color.dart';
+import '/src/common/classes/large_print_with_color.dart';
 
 final class PrintColorFormat {
   final LargePrintWithColor _largePrintWithColor;

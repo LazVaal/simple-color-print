@@ -1,0 +1,27 @@
+{
+  "output": {
+    "removeComments": true,
+    "removeEmptyLines": true,
+    "compress": true
+  },
+  "security": {
+    "enableSecurityCheck": true
+  },
+  "include": [
+    "lib/**",
+    "pubspec.yaml",
+    "android/app/src/main/**",
+    "android/app/build.gradle.kts",
+    "android/build.gradle.kts",
+    "ios/Runner/**",
+    "ios/Podfile"
+  ],
+  "exclude": [
+    "**/*.g.dart",
+    "**/*.freezed.dart",
+    "test/**",
+    ".idea/**",
+    ".vscode/**",
+    "build/**"
+  ]
+}

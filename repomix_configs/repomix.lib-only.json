@@ -1,0 +1,22 @@
+{
+  "output": {
+    "removeComments": true,
+    "removeEmptyLines": true,
+    "compress": true
+  },
+  "security": {
+    "enableSecurityCheck": true
+  },
+  "include": [
+    "lib/**",
+    "pubspec.yaml"
+  ],
+  "exclude": [
+    "**/*.g.dart",
+    "**/*.freezed.dart",
+    "test/**",
+    ".idea/**",
+    ".vscode/**",
+    "build/**"
+  ]
+}
